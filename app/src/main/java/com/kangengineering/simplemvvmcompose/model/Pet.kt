@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose.model
+package com.kangengineering.simplemvvmcompose.model
 
 data class Pet(
     val id: Int,

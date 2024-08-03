@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose
+package com.kangengineering.simplemvvmcompose
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

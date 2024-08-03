@@ -1,7 +1,7 @@
-package com.seankang.simplemvvmcompose
+package com.kangengineering.simplemvvmcompose
 
 import android.app.Application
-import com.seankang.simplemvvmcompose.di.appModules
+import com.kangengineering.simplemvvmcompose.di.appModules
 import org.koin.core.context.startKoin
 
 class SimpleMvvmComposeApplication: Application() {

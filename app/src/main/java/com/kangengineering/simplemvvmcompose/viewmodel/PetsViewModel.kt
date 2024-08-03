@@ -1,7 +1,7 @@
-package com.seankang.simplemvvmcompose.viewmodel
+package com.kangengineering.simplemvvmcompose.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.seankang.simplemvvmcompose.model.PetsRepository
+import com.kangengineering.simplemvvmcompose.model.PetsRepository
 
 class PetsViewModel(
     private val petsRepository: PetsRepository

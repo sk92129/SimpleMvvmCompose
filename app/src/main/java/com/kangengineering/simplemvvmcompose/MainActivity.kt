@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose
+package com.kangengineering.simplemvvmcompose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,9 +15,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seankang.simplemvvmcompose.di.appModules
-import com.seankang.simplemvvmcompose.view.theme.SimpleMvvmComposeTheme
-import com.seankang.simplemvvmcompose.view.PetList
+import com.kangengineering.simplemvvmcompose.di.appModules
+import com.kangengineering.simplemvvmcompose.view.theme.SimpleMvvmComposeTheme
+import com.kangengineering.simplemvvmcompose.view.PetList
 import org.koin.compose.KoinApplication
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose.model
+package com.kangengineering.simplemvvmcompose.model
 
 class PetsRepositoryImpl: PetsRepository {
     override fun getPets(): List<Pet> {

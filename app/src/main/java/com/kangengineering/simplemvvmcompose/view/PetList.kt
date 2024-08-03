@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose.view
+package com.kangengineering.simplemvvmcompose.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.seankang.simplemvvmcompose.viewmodel.PetsViewModel
+import com.kangengineering.simplemvvmcompose.viewmodel.PetsViewModel
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

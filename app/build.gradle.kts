@@ -1,14 +1,16 @@
+import com.android.build.api.dsl.Packaging
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
-    namespace = "com.seankang.simplemvvmcompose"
+    namespace = "com.kangengineering.simplemvvmcompose"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.seankang.simplemvvmcompose"
+        applicationId = "com.kangengineering.simplemvvmcompose"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,7 +47,7 @@ android {
         kotlinCompilerExtensionVersion = "1.4.6"
     }
 
-    packagingOptions {
+    fun Packaging.() {
         resources {
             pickFirsts.add("META-INF/AL2.0")
             pickFirsts.add("META-INF/LGPL2.1")

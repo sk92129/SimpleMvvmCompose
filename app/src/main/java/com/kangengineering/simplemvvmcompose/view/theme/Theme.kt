@@ -1,4 +1,4 @@
-package com.seankang.simplemvvmcompose.view.theme
+package com.kangengineering.simplemvvmcompose.view.theme
 
 import android.app.Activity
 import android.os.Build
